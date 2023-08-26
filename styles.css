@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    margin-top: 0;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-container{
+    width: 1550px;
+    height: 600px;
+    background-image: url("https://wallup.net/wp-content/uploads/2019/09/438356-mountains-winter-snow-clouds-white-sky.jpg");
+    background-position:1600px 900px;
+}
+
+.nav-container-first{
+    margin-left: 300px;
+    display: inline-block;
+}
+
+.nav-container-first > img{
+    margin-top: 5px;
+    width: 50px;
+}
+
+.link-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.link-container > a{
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#history-link{
+    margin-right: 55px;
+}
+
+.body-container-first{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-container-first > p{
+    margin: 0;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 110px;
+}
+
+#la-text{
+    color: rgb(54, 52, 52);
+}
+
+#mountains-text{
+    position: relative;
+    top: -35px;
+    color: rgb(1, 1, 75);
+}
