@@ -30,7 +30,7 @@ body{
 .link-container-first{
     display: inline-block;
     vertical-align: top;
-    margin-left: 725px;
+    margin-left: 740px;
     margin-top: 20px;
 }
 
@@ -171,7 +171,7 @@ body{
 .footer-container-second{
     background-color: rgba(18, 18, 43, 0.9);
     position: relative;
-    top: 42%;
+    top: 43%;
     height: 200px;
 }
 
@@ -193,18 +193,23 @@ body{
 }
 
 .third-container{
-    background-image: url("");
+    background-image: url("https://www.feelgoodlightups.com/wp-content/uploads/sites/5/2020/06/209682_1.png");
+    width: 1550px;
+    height: 870px;
+    background-position: 1600px 150px;
+    background-size: cover;
 }
 
 .nav-container-third{
     margin-top: 20px;
+    background-color: white;
+    height: 120px;
 }
 
 .nav-container-third > p{
     margin-top: 0;
-    margin-right: 305px;
     display: inline-block;
-    color: rgb(41, 41, 41);
+    color: rgb(96, 94, 94);
 }
 
 #large-text-third{
@@ -228,7 +233,41 @@ body{
 #cras-text{
     position: relative;
     right: 30px;
-    bottom: 35px;
+    bottom: 30px;
     width: 600px;
+    line-height: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.mountains-extended-bar-third{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(18, 18, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mountain-buttons-container{
+    margin-right: 700px;
+}
+
+.mountain-buttons-container > button{
+    border: none;
+    width: 140px;
+    height: 45px;
+    background: none;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mountain-1-btn{
+    color: rgb(187, 187, 192);
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+#mountain-2-btn{
+    color: rgb(110, 110, 116);
 }
