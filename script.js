@@ -17,7 +17,8 @@ addEventListener("click", (e) => {
 
 let activeButton = "Mountain 1";
 addEventListener("click", (e) => {
-  
+  resetPrevActive(activeButton);
+
   if (e.target === mountain1Button && activeButton !== "Mountain 1") {
     activeButton = "Mountain 1";
     mountain1Button.style.color = "rgb(187, 187, 192)";
@@ -29,3 +30,9 @@ addEventListener("click", (e) => {
     mountain2Button.style.textDecoration = "underline";
   }
 });
+
+const resetPrevActive = (prevActiveButton) => {
+  prevActiveButton === "Mountain 1"
+    ? (mountain1Button.style.color = "rgb(110, 110, 116)")
+    : (mountain2Button.style.color = "rgb(110, 110, 116)");
+};
