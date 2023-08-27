@@ -25,13 +25,12 @@ body{
 .nav-container-first > img{
     margin-top: 5px;
     width: 50px;
-    cursor: pointer;
 }
 
 .link-container-first{
     display: inline-block;
     vertical-align: top;
-    margin-left: 716px;
+    margin-left: 725px;
     margin-top: 20px;
 }
 
@@ -39,7 +38,7 @@ body{
     display: inline-block;
     color: white;
     text-decoration: underline;
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -126,7 +125,7 @@ body{
     display: inline-block;
     color: rgb(1, 1, 75);
     text-decoration: underline;
-    font-size: 11px;
+    font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
