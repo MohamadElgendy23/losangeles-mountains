@@ -2,6 +2,9 @@
 const homePageHistoryAnchor = document.getElementById("history-link-first");
 const homePageTeamAnchor = document.getElementById("team-link-first");
 
+const mountainButtonsContainer = document.querySelector(
+  ".mountain-buttons-container"
+);
 const mountain1Button = document.getElementById("mountain-1-btn");
 const mountain2Button = document.getElementById("mountain-2-btn");
 
@@ -16,9 +19,9 @@ addEventListener("click", (e) => {
 });
 
 let activeButton = "Mountain 1";
-addEventListener("click", (e) => {
+// when user clicks one of the 2 mountain buttons
+mountainButtonsContainer.addEventListener("click", (e) => {
   resetPrevActive(activeButton);
-
   if (e.target === mountain1Button && activeButton !== "Mountain 1") {
     activeButton = "Mountain 1";
     mountain1Button.style.color = "rgb(187, 187, 192)";
@@ -32,7 +35,11 @@ addEventListener("click", (e) => {
 });
 
 const resetPrevActive = (prevActiveButton) => {
-  prevActiveButton === "Mountain 1"
-    ? (mountain1Button.style.color = "rgb(110, 110, 116)")
-    : (mountain2Button.style.color = "rgb(110, 110, 116)");
+  if (prevActiveButton === "Mountain 1") {
+    mountain1Button.style.color = "rgb(110, 110, 116)";
+    mountain1Button.style.textDecoration = "none";
+  } else {
+    mountain2Button.style.color = "rgb(110, 110, 116)";
+    mountain2Button.style.textDecoration = "none";
+  }
 };
