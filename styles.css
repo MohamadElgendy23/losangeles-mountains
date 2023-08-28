@@ -191,7 +191,7 @@ body{
     margin-right: 10px;
 }
 
-.third-container{
+.third-container {
     background-image: url("https://www.feelgoodlightups.com/wp-content/uploads/sites/5/2020/06/209682_1.png");
     width: 1550px;
     height: 870px;
@@ -269,4 +269,29 @@ body{
 
 #mountain-2-btn{
     color: rgb(110, 110, 116);
+}
+
+.body-container-third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.schedule-container > h2{
+    margin: 0;
+}
+
+.schedule-container > span{
+    margin-left: 100px;
 }
