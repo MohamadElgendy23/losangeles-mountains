@@ -53,6 +53,7 @@ const resetPrevActive = (prevActiveButton) => {
   }
 };
 
-const displayMountain1Page = () => {};
-
+const displayMountain1Page = () => {
+  
+};
 const displayMountain2Page = () => {};

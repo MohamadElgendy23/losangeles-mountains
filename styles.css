@@ -310,3 +310,34 @@ body{
 .schedule-container-data > p > span{
     margin-left: 50px;
 }
+
+.footer-container-third{
+    background-color: rgb(30, 30, 70);
+    height: 100px;
+    width: 100%;
+    margin-top: 230px;
+    display: inline-block;
+}
+
+.footer-container-third > img{
+    margin-top: 30px;
+    margin-left: 320px;
+    width: 50px;
+}
+
+#la-text-third{
+    color: rgb(110, 110, 116);
+    margin-top: 40px;
+    line-height: 4px;
+}
+
+#mountains-text-third{
+    color: rgb(110, 110, 116);
+}
+
+#copyright-text{
+    display: inline-block;
+    font-size: large;
+    color: rgb(110, 110, 116);
+    margin-left: 700px;
+}
