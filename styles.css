@@ -278,20 +278,29 @@ body{
 }
 
 .schedule-container{
-    margin-top: 70px;
+    margin-top: 120px;
+    margin-right: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 260px;
-    background-color: rgba(255, 255, 255, 0.85);
+    width: 375px;
+    height: 230px;
+    background-color: rgba(246, 246, 246, 0.85);
 }
 
 .schedule-container > h2{
+    position: relative;
     margin: 0;
+    margin-top: 18px;
+    margin-right: 180px;
+    color: rgba(27, 27, 63, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.schedule-container > span{
-    margin-left: 100px;
+.schedule-container-data{
+    margin-bottom: 10px;
+}
+.schedule-container-data > p > span{
+    margin-left: 50px;
 }
