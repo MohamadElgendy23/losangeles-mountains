@@ -279,28 +279,34 @@ body{
 
 .schedule-container{
     margin-top: 120px;
-    margin-right: 350px;
+    margin-right: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 375px;
-    height: 230px;
+    height: 235px;
     background-color: rgba(246, 246, 246, 0.85);
 }
 
 .schedule-container > h2{
     position: relative;
     margin: 0;
-    margin-top: 18px;
-    margin-right: 180px;
+    font-size: xx-large;
+    margin-top: 25px;
+    margin-right: 165px;
     color: rgba(27, 27, 63, 0.7);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .schedule-container-data{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
+
+.schedule-container-data > p{
+    font-size: medium;
+}
+
 .schedule-container-data > p > span{
     margin-left: 50px;
 }
