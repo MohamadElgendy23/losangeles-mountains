@@ -48,7 +48,7 @@ body{
 
 .body-container-first{
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -355,9 +355,13 @@ body{
     color: rgb(110, 110, 116);
 }
 
-#copyright-text{
+.copyright-text-container{
     display: inline-block;
+    margin-left: 735px;
+    margin-bottom: 100px;
+}
+
+.copyright-text-container > p{
     font-size: large;
     color: rgb(110, 110, 116);
-    margin-left: 700px;
 }
