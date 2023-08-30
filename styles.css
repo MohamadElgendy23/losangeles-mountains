@@ -194,9 +194,10 @@ body{
 .third-container {
     background-image: url("https://www.feelgoodlightups.com/wp-content/uploads/sites/5/2020/06/209682_1.png");
     width: 1550px;
-    height: 870px;
+    height: 910px;
     background-position: 1550px 150px;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .nav-container-third{
@@ -335,7 +336,7 @@ body{
     background-color: rgb(30, 30, 70);
     height: 100px;
     width: 100%;
-    margin-top: 230px;
+    margin-top: 270px;
     display: inline-block;
 }
 
@@ -358,7 +359,6 @@ body{
 .copyright-text-container{
     display: inline-block;
     margin-left: 735px;
-    margin-bottom: 100px;
 }
 
 .copyright-text-container > p{
