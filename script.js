@@ -12,6 +12,13 @@ const mountainButtonsContainer = document.querySelector(
 const mountain1Button = document.getElementById("mountain-1-btn");
 const mountain2Button = document.getElementById("mountain-2-btn");
 
+const mountain1ScheduleDataContainer = document.querySelector(
+  ".schedule-container-data-1"
+);
+const mountain2ScheduleDataContainer = document.querySelector(
+  ".schedule-container-data-2"
+);
+
 // set the appropriate navigation for each link anchor on home page and middle page
 addEventListener("click", (e) => {
   if (
@@ -54,6 +61,14 @@ const resetPrevActive = (prevActiveButton) => {
 };
 
 const displayMountain1Page = () => {
-  
+  footerPageContainer.style.backgroundImage =
+    'url("https://www.feelgoodlightups.com/wp-content/uploads/sites/5/2020/06/209682_1.png")';
+  mountain2ScheduleDataContainer.hidden = true;
+  mountain1ScheduleDataContainer.hidden = false;
 };
-const displayMountain2Page = () => {};
+const displayMountain2Page = () => {
+  footerPageContainer.style.backgroundImage =
+    'url("https://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Snowy-Mountain-Winter-Wallpaper.jpg")';
+  mountain1ScheduleDataContainer.hidden = true;
+  mountain2ScheduleDataContainer.hidden = false;
+};
